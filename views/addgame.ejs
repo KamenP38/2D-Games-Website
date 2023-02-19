@@ -1,0 +1,33 @@
+<%- include ("partials/header") %>
+
+<form action="/addgame" method="POST">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Title</label>
+      <input type="text" class="form-control" placeholder = "title" name = "title">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Creator</label>
+        <input type="text" class="form-control" placeholder = "creator" name = "creator">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Width</label>
+        <input type="text" class="form-control" placeholder = "width" name = "width">
+    </div>  
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Height</label>
+        <input type="text" class="form-control" placeholder = "height" name = "height">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Thumbnail</label>
+        <input type="text" class="form-control" placeholder = "thumbnail" name = "thumbnailFile">
+    </div>  
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Source</label>
+        <input type="text" class="form-control" placeholder = "source" name = "src">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+
+
+<%- include ("partials/footer") %>

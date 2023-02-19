@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.game-title{
+    color: white;
+    margin-top: 8px;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color: white;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.navbar-brand{
+    display: flex;
+}
+
+.navbar-brand > img{
+    margin-top: 5px;
+}
+
+.navtext{
+    margin-left: 10px;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.games{
+    background-color: orange;
+    border-style: solid;
+    border-color: orange;
+    color: red;
+    border-radius: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+    margin-top : 15px;
+    margin-left: 15px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.card{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.game-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game{
+    margin-top: 15px;
+}
+
+form{
+    color: white;
+}
+
+
+.welcomemsg{
+    animation: fadeIn 3s;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

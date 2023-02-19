@@ -1,0 +1,15 @@
+<%- include("partials/header"); %>
+  <h1 style="margin: 30px; text-align: center;" class="welcomemsg">Welcome to my website. Enjoy the games.</h1>
+    <div class="cards">
+        <% for(var i = 0; i < gameList.length; i++){ %>
+            <div class="card" style="width: 18rem;">
+                <img src="/images/<%= gameList[i].thumbnailFile %>" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Game Title: <%= gameList[i].title %></h5>
+                  <a href="/game/<%= gameList[i].title%>/<%= gameList[i].creator%>/<%= gameList[i].width%>/<%= gameList[i].height%>/<%= gameList[i].thumbnailFile%>" class="btn btn-primary">Play Game</a>
+                </div>
+              </div>
+        <% } %>
+    </div>
+        
+<%- include("partials/footer"); %>
